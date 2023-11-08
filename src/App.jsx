@@ -1,12 +1,12 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Login from "./pages/Auth/Login.jsx";
+import AuthLayout from "./pages/Auth/Layout.jsx";
 
 function App() {
   
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Login />}></Route>
+        <Route path="/" element={<AuthLayout />}></Route>
       </Routes>
     </BrowserRouter>
   )

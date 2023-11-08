@@ -1,12 +1,16 @@
-// import { auth } from '../../firebase/config.js';
-
-function Login() {
-
+function Register() {
   return (
-    <div className="row g-0">
+    <div className="row g-0 d-none">
+      <div className="col-lg-6 d-flex align-items-center gradient-custom-2">
+        <div className="text-white px-3 py-4 p-md-5 mx-md-4">
+          <h4 className="mb-4">Employee Management Dashboard</h4>
+          <p className="small mb-0">
+            
+          </p>
+        </div>
+      </div>
       <div className="col-lg-6">
         <div className="card-body p-md-5 mx-md-4">
-
           <div className="text-center">
             <img src="https://static.thenounproject.com/png/3627272-200.png"
               className="img-fluid float-img " alt="logo" />
@@ -45,16 +49,8 @@ function Login() {
 
         </div>
       </div>
-      <div className="col-lg-6 d-flex align-items-center gradient-custom-2">
-        <div className="text-white px-3 py-4 p-md-5 mx-md-4">
-          <h4 className="mb-4">Employee Management Dashboard</h4>
-          <p className="small mb-0">
-            
-          </p>
-        </div>
-      </div>
     </div>
   )
 }
 
-export default Login;
+export default Register;
